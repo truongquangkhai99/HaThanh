@@ -32,6 +32,7 @@ public class ContentController {
 		model.addAttribute("members", list);
 		model.addAttribute("content", new Content());
 		// edit
+		// edit 2
 		return "content/addcontent";
 	}
 

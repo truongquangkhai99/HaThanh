@@ -31,6 +31,7 @@ public class ContentController {
 		List<Member> list = memberService.getAllMember();
 		model.addAttribute("members", list);
 		model.addAttribute("content", new Content());
+		// edit
 		return "content/addcontent";
 	}
 

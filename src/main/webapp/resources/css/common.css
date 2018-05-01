@@ -1,0 +1,13 @@
+body{
+  box-sizing: border-box;
+}
+.bg-banner{
+	background-color: #e6e6e6;		
+}
+.border-bottom-banner{
+	border-bottom: 1px solid #d9d9d9;
+}
+
+*[id$=.errors]{
+     color:red; font-style: italic;
+}
